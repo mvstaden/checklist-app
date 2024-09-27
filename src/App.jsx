@@ -4,10 +4,12 @@ function App() {
       <h1 className="text-5xl text-white text-center  border-b-2">
         Checkilist
       </h1>
-      <div className="bg-lime-100 mt-4 h-[500px]">
-        <span className="bg-zinc-600 flex items-center justify-center w-6 h-6 rounded-full content-none text-2xl">
-          +
-        </span>
+      <div className="bg-lime-100 mt-4 h-[500px]  flex justify-center items-center">
+        <a
+          href=""
+          className="border-black rounded-full text-2xl w-7 h-7 flex items-center justify-center ">
+          <span className="">+</span>
+        </a>
       </div>
     </div>
   );
